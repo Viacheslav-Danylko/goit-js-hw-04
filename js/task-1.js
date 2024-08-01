@@ -8,7 +8,7 @@ function isEnoughCapacity(products, containerSize) {
     sum += number;
   }
   
-  return sum < containerSize;
+  return sum <= containerSize;
 }
 
 console.log(
